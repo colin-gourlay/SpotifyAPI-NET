@@ -1,0 +1,6 @@
+﻿services:
+  spotifyapi:
+    image: spotifyapi
+    build:
+      context: .
+      dockerfile: SpotifyApi/Dockerfile
